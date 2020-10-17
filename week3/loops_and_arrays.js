@@ -27,7 +27,7 @@ var peopleWhoWantToSeeMadMaxFuryRoad = [
 ];
 
     function isOldEnough() {
-    for (i = 0; peopleWhoWantToSeeMadMaxFuryRoad.length; i++) {
+    for (i = 0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++) {
         if(peopleWhoWantToSeeMadMaxFuryRoad[i].age >= 18) {
             console.log("is old enough");
     }
@@ -53,7 +53,7 @@ function isOldEnoughWithName() {
 isOldEnoughWithName() 
 
 function isOldEnoughWithName() {
-    for (i = 0; peopleWhoWantToSeeMadMaxFuryRoad.length; i++) {
+    for (i = 0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++) {
         if(peopleWhoWantToSeeMadMaxFuryRoad[i].age >= 18) {
             console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + " old enough");
     }
